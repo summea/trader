@@ -1,0 +1,58 @@
+body {
+  background-color:#000;
+  color:#555;
+}
+
+#status {
+  padding:10px;
+  color:#555;
+}
+
+#canvas {
+  float:left;
+  background-color:#000;
+  outline:1px solid #333;
+  width:640px;
+  height:480px;
+}
+
+#directions {
+  float:left;
+  margin-left:10px;
+}
+
+#directions table {
+  float:left;
+}
+
+#directions table td {
+  padding-right:10px;
+}
+
+#console {
+  outline:1px solid #333;
+  border:0;
+  background-color:#000;
+  color:#555;
+  width:640px;
+  height:110px;
+}
+
+#info_screen {
+  padding:20px;
+  padding-left:40px;
+  font-family:Verdana,sans-serif;
+}
+
+#info_screen table {}
+
+#info_screen th {
+  width:180px;
+  padding:10px;
+  border-bottom:1px solid #555;
+  text-align:left;
+}
+
+#info_screen td {
+  padding:10px; 
+}

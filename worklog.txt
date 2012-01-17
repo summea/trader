@@ -1,0 +1,57 @@
+TODO:
+- ADD: planetView (simple, for now; html)
+- ADD: refueling
+- ADD: cargo
+- ADD: planet in space view
+- ADD: another area (planet, etc.)
+
+
+20120112
+v0.0.5
+- FIXED: get back to spaceView after planetView (re-init paper variable)
+
+
+20120111
+v0.0.4
+- FIXED: using RaphaelJS for graphics, now, because canvas was going to be a lot of work... (canvas doesn't seem to rotate individual objects...)
+- ADDED: rotate ship when turning directions
+- FIXED: ship speeds up unnaturally when taking off (fixed by deleted updateGame() in planet view) 
+- FIXED: can't seem to pause game when in planet view
+- FIXED: split up spaceView and planetView for key codes
+- ADDED: docking
+
+
+20120106
+v0.0.3
+- ADDED: fuel (how much is used is related to ship speed)
+- FIXED: turned spacey float (after thrusters turned off or when fuel has run out,) into a function
+- ADDED: initial planet
+- ADDED: initial/temporary background
+- FIXED: adjusted ship speeds down
+
+
+20120105
+v0.0.2
+- ADDED: game timer
+- ADDED: game pause
+- ADDED: player ship speed (0-9) (thrusters)
+- ADDED: space float
+- ADDED: direction spam protection (can only go in one direction at a time)
+- ADDED: player ship spacey float when thrusters are off
+- FIXED: pause button (not allowed to change settings when paused)
+
+
+20120104
+v0.0.1
+- started Trader project
+- implemented game canvas
+- implemented initial ship movement
+- ADDED: seeming ability to go beyond canvas up/down, left/right
+
+
+LINKS:
+- http://raphaeljs.com/reference.html
+- http://html5.litten.com/slicing-spritemaps-and-parallax-scrolling-on-the-html5-canvas/
+- http://stackoverflow.com/questions/3220622/rotating-a-single-image-but-not-the-others-on-an-html5-canvas
+- http://stackoverflow.com/questions/365382/canvas-rotate-from-bottom-center-image-angle
+- https://developer.mozilla.org/en/Canvas_tutorial/Transformations
