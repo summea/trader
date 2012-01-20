@@ -8,13 +8,8 @@ var gameLoopID;
 var gameTime = 0;
 var gamePaused = 0;
 
-var background = new Image();
-background.src = 'img/background.gif';
-
 var planetX = 300;
 var planetY = 300;
-var planetImage = new Image();
-planetImage.src = 'img/planet.gif';
 
 var lastKey = 0;
 var playerShipSize = 12;
@@ -28,8 +23,6 @@ var lastPlayerShipSpeed = 0;
 var playerShipSpeed = 0.3;
 var playerShipThrusterCooldown = 60;
 var playerShipThrusterOffTime = 0;
-var playerShipImage = new Image();
-playerShipImage.src = 'img/brick_ship.gif';
 var playerShipFuel = 5000;
 
 /*
@@ -228,17 +221,6 @@ function spaceDraw() {
   }
 
   ship.transform("t" + transformX + "," + transformY);
-
-
-
-  //canvas.drawImage(background, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
-  //canvas.drawImage(planetImage, planetX, planetY);
-
-  //canvas.save();
-  //canvas.translate(playerShipX, playerShipY);
-  //canvas.rotate(playerShipRotateAngle * (Math.PI / 180));
-  //canvas.drawImage(playerShipImage, playerShipX, playerShipY);
-  //canvas.restore();
 }
 
 function updateGameLogic() {
